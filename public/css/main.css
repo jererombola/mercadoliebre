@@ -1,12 +1,46 @@
-h2{
+*{
+    box-sizing: border-box;
+}
+main{
+    margin: auto;
+    width: 90%; 
+    
+}
+main h2{
     font-size: 24px;
+    color: #666;
+    text-align: center;
 }
 .precios{
     font-size: 18px;
 }
 .descuentos{
     font-size: 16px;
+    color: #39b54a;
 }
 .productos{
     font-size: 16px;
 }
+main section{
+    
+    margin: 10px;
+    padding: 15px;
+}
+   
+main section article{
+    display: block; 
+    
+    border-top: 1px solid #ebebeb;
+}
+main ul li{
+    list-style: none;
+    
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+.fa-truck{
+    color: #39b54a;
+    border: solid #39b54a 3px;
+    border-radius: 100%;
+    
+} 
