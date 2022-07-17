@@ -1,0 +1,66 @@
+@import url(header.css);
+@import url(footer.css);
+
+
+
+body {font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    background-color: #ebebeb;
+} 
+main input{
+    margin: 1.2rem 1rem;
+    width: 90vw;
+    border: solid white .5rem;
+    border-radius: .2rem;
+    
+}
+.boton{
+    color: white;
+    border: #1259c3 .6rem solid;
+    background: #1259c3;
+    display: flex;
+    position: relative;
+    justify-content: center;  
+}
+.boton:focus{
+    background: #0022AA;
+    border: #0022AA .6rem solid;
+    
+}
+
+@media screen and (min-width: 768px){
+    main input{
+        width: 75vw;
+        position: relative;
+        left:5rem;
+        margin-top: 1.5rem;
+    }
+    .boton{
+        color: white;
+        border: #1259c3 .6rem solid;
+        background: #1259c3;
+        display: flex;
+        position: relative;
+        justify-content: center;
+        
+        
+    }
+}
+@media screen and (min-width: 1024px){
+    main input{
+        width: 70vw;
+        position: relative;
+        left:8rem;
+        margin-top: 1.5rem;
+    }
+    .boton{
+        color: white;
+        border: #1259c3 .6rem solid;
+        background: #1259c3;
+        display: flex;
+        position: relative;
+        justify-content: center;
+        
+        
+    }
+}

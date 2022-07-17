@@ -41,11 +41,25 @@ main section ul li{
     flex-basis: content;
 }
 
+main p{
+    visibility: hidden;
+}
    
 main section article{
     background-color: white;
     border-top: 1px solid #ebebeb;
     position: relative;
+}
+main section ul :hover{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    
+    }
+main section ul li :hover{
+    box-shadow: unset;
+    
+}
+main section li:hover p{
+    visibility: visible;
 }
 main section article i {
     display: block ;
@@ -83,9 +97,12 @@ main section article i {
 
 .fa-truck{
     color: #39b54a;
-    
-} 
+}
 
+main div :hover{
+    transition-duration: 1s;
+    transform: rotate(-90deg);
+}
 @media screen and (min-width: 768px){
     main section ul li{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);

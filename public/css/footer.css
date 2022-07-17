@@ -1,8 +1,38 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    border:none;
+    margin:0;
+}
+footer{
+    background-color: white;
+}
 footer section{
+    margin: 1rem 0 2rem 0;
     text-align: center;
     color: #666;
 }
 footer i.fa-solid{
     font-size: 2em;
     color: #1259c3;
+}
+
+footer h2{
+    font-size: 0.9rem;
+}
+footer i:hover{
+    color:#03264C;;
+}
+
+@media screen and (min-width: 1024px){
+    footer{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    footer section{
+        margin: 2rem;    
+        color: #666;
+        width: 26vw;
+    }
 }

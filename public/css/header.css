@@ -115,7 +115,7 @@ header input{
             display: flex;  
             width:30vw;
             position: relative;
-            top:5vw;
+            top:6vw;
             left: 2.5vw;;
         }
         .searchbar{
@@ -181,11 +181,11 @@ header input{
         }
         #mercado{
             display: flex;  
-            width:25vw;
+            width:20vw;
             position: relative;
-            top:4vw;
+            top:3vw;
             left: 2.5vw;
-            flex-shrink: inherit;
+        
         }
                  
         .searchbar{
