@@ -13,7 +13,7 @@ body {font-family: 'Roboto', sans-serif;
 } 
 
 main input{
-    margin: 1.2rem 1rem;
+    margin: 1.2rem 1rem 1.2rem;
     width: 92vw;
     border: solid white .5rem;
     border-radius: .2rem;
