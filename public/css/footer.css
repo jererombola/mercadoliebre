@@ -30,6 +30,7 @@ footer i:hover{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        
     }
     footer section{
         margin: 2rem;    
