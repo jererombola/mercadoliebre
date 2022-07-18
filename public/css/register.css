@@ -68,6 +68,11 @@ h4{
     
 }
 
+.boton:focus{
+    background: #0022AA;
+    border: #0022AA .6rem solid;
+    
+}
 
 
 
