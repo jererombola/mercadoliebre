@@ -59,40 +59,36 @@
     </header>
 
     <main>   
-         <nav>    
-            <form action="/" method="GET">
-                    <input type="text" name="nombre" placeholder="Nombre y Apellido" id="nombre"  required minlength="2">
-                    <input type="text" name="usuario" placeholder="Nombre de Usuario" id="usuario" required minlength="2">
-                    <input type="email" name="email" placeholder="Correo electrónico" id="email">
-                    <label for="fecha"><h4>Fecha de Nacimiento</h4></label>
-                        <input  type="date" name="fecha" id="fecha">
-                    <input  type="text" name="domicilio" placeholder="Domicilio" id="domicilio" required minlength="2">
-                    <label for="perfil"><h4>Perfil del Usuario</h4></label>
-                        <input class="perfil" type="radio" name="perfil" value="Comprador">
-                        <label class ="etiqueta" >Comprador</label>
-                        <input class="perfil" type="radio" name="perfil" value="Vendedor">
-                        <label class ="etiqueta"  >Vendedor</label>
-                    <label for="intereses"><h4>Intereses</h4></label>
-                        <input class="interes" type="checkbox" name="intereses" value="electro">
-                        <label class ="checkbox" for="intereses">Electro</label>
-                        <input class="interes"  type="checkbox" name="intereses" value="moda">
-                        <label class ="checkbox" for="intereses">Moda</label>
-                        <input class="interes"  type="checkbox" name="intereses" value="hogar">
-                        <label class ="checkbox" for="intereses">Hogar</label>
-                        <input class="interes" type="checkbox" name="intereses" value="juguetería">
-                        <label class ="checkbox" for="intereses">Juguetería</label>
-                        <input class="interes" type="checkbox" name="intereses" value="vida sana">
-                        <label class ="checkbox" for="intereses">Vida sana</label>                  
-                    <label for="intereses"><h4>Subi tu Foto</h4></label>
-                    <input id="foto" type="file" name="foto" accept=".jpg"multiple required>
-                    <input class ="texto "type="password" name="password" placeholder="Contraseña" id="password" required>
-                    <input class ="texto "type="password" name="password" placeholder="Confirmar contraseña" id="password" required>
-                    <input class="boton" type="submit" name="enviar" value="Enviar">
-                    <input class="boton" type="reset" name="reset" value="Borrar datos">        
+          <form action="/" method="GET">
+                 <input type="text" name="nombre" placeholder="Nombre y Apellido" id="nombre"  required minlength="2">
+                 <input type="text" name="usuario" placeholder="Nombre de Usuario" id="usuario" required minlength="2">
+                 <input type="email" name="email" placeholder="Correo electrónico" id="email">
+                 <label for="fecha"><h4>Fecha de Nacimiento</h4></label>
+                     <input  type="date" name="fecha" id="fecha">
+                 <input  type="text" name="domicilio" placeholder="Domicilio" id="domicilio" required minlength="2">
+                 <label for="perfil"><h4>Perfil del Usuario</h4></label>
+                     <input class="perfil" type="radio" name="perfil" value="Comprador">
+                     <label class ="etiqueta" >Comprador</label>
+                     <input class="perfil" type="radio" name="perfil" value="Vendedor">
+                     <label class ="etiqueta">Vendedor</label>
+                 <label for="intereses"><h4>Intereses</h4></label>
+                     <input class="interes" type="checkbox" name="intereses" value="electro">
+                     <label class ="checkbox" for="intereses">Electro</label>
+                     <input class="interes"  type="checkbox" name="intereses" value="moda">
+                     <label class ="checkbox" for="intereses">Moda</label>
+                     <input class="interes"  type="checkbox" name="intereses" value="hogar">
+                     <label class ="checkbox" for="intereses">Hogar</label>
+                     <input class="interes" type="checkbox" name="intereses" value="juguetería">
+                     <label class ="checkbox" for="intereses">Juguetería</label>
+                     <input class="interes" type="checkbox" name="intereses" value="vida sana">
+                     <label class ="checkbox" for="intereses">Vida sana</label>                  
+                 <label for="foto"><h4>Subi tu Foto</h4></label>
+                     <input id="foto" type="file" name="foto" accept=".jpg"multiple required>
+                 <input class ="texto "type="password" name="password" placeholder="Contraseña" id="password" required>
+                 <input class ="texto "type="password" name="password" placeholder="Confirmar contraseña" id="password" required>
+                 <input class="boton" type="submit" name="enviar" value="Enviar">
+                 <input class="boton" type="reset" name="reset" value="Borrar datos">        
            </form>
-         
-       </nav>
-   
     </main>
 
     <footer>

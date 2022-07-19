@@ -8,19 +8,21 @@ body {font-family: 'Roboto', sans-serif;
     background-color: #ebebeb;
 } 
 main input{
-    margin: 1.2rem 1rem;
-    width: 90vw;
+    margin: 1.8rem 1rem;
+    width: 89vw;
     border: solid white .5rem;
     border-radius: .2rem;
-    
+    position: relative;
+}
+main form{
+    position: relative;
+    text-align: center;
 }
 .boton{
     color: white;
     border: #1259c3 .6rem solid;
     background: #1259c3;
-    display: flex;
-    position: relative;
-    justify-content: center;  
+    
 }
 .boton:focus{
     background: #0022AA;
@@ -29,37 +31,22 @@ main input{
 }
 
 @media screen and (min-width: 768px){
-    main input{
-        width: 75vw;
-        position: relative;
-        left:5rem;
-        margin-top: 1.5rem;
-    }
+   
     .boton{
         color: white;
         border: #1259c3 .6rem solid;
         background: #1259c3;
-        display: flex;
-        position: relative;
-        justify-content: center;
+        
         
         
     }
 }
 @media screen and (min-width: 1024px){
-    main input{
-        width: 70vw;
-        position: relative;
-        left:8rem;
-        margin-top: 1.5rem;
-    }
+   
     .boton{
         color: white;
         border: #1259c3 .6rem solid;
         background: #1259c3;
-        display: flex;
-        position: relative;
-        justify-content: center;
         
         
     }

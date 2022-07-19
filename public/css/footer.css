@@ -36,5 +36,6 @@ footer i:hover{
         margin: 2rem;    
         color: #666;
         width: 26vw;
+        margin-bottom: none;
     }
 }
