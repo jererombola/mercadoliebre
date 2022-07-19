@@ -18,15 +18,16 @@ main form{
 }
 main input{
     margin: 1.2rem 1rem 1.2rem;
-    width: 93vw;
+    width: 90vw;
     border: solid white .5rem;
     border-radius: .2rem;
     
 }
 
 h4{
-        padding-left: 1rem;
-        text-align: start;
+    text-align: start;
+    padding-left: 4vw;
+    
 }
 
 .perfil{
@@ -35,7 +36,7 @@ h4{
 }
 
 .etiqueta{
-    margin:0 1rem 0;
+    margin:0 1vw 0;
 }
 
 .interes{
@@ -81,10 +82,11 @@ h4{
 @media screen and (min-width: 768px){
     main input{
         width: 80vw;
+
     }
     h4{
-        padding-top: 1rem;
-        padding-left: 5rem;
+        padding-top: 2rem;
+        padding-left: 10vw;
         text-align: start;
     }
     .perfil{
@@ -92,7 +94,7 @@ h4{
     }
     
     .etiqueta{
-    padding-right: 4rem;
+    padding-right: 0.5vw;
     }
     .interes{
         position: relative;
@@ -126,7 +128,7 @@ h4{
         
       }
       h4{
-        padding-left: 10rem;
+        padding-left: 15vw;
         text-align: start;
     }
 
@@ -139,7 +141,7 @@ h4{
         position: relative;
         display: flex;
         max-width: fit-content;
-        left: 10rem;
+        left: 15vw;
         top:.2rem;
 
     }
@@ -147,7 +149,7 @@ h4{
         position: relative;
         display: flex;
         max-width: fit-content;
-        left:15rem;
+        left:20vw;
         bottom:1.8rem;
     }
     .boton{

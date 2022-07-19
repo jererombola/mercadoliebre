@@ -30,12 +30,12 @@ footer i:hover{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        
+       
     }
     footer section{
-        margin: 2rem;    
+        margin: 4vw;    
         color: #666;
-        width: 26vw;
+        width: 24vw;
         margin-bottom: none;
     }
 }
