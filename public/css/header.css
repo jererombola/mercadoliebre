@@ -69,8 +69,7 @@ header input{
     display: flex;  
     width: 40vw;
     position: relative;
-    top:10vw;
-    left:5vw;
+    top: 5vw;
 }
 
 .searchbar{
@@ -115,8 +114,8 @@ header input{
             display: flex;  
             width:30vw;
             position: relative;
-            top:6vw;
-            left: 2.5vw;;
+            top:3vw;
+            left: 1.5vw;;
         }
         .searchbar{
             max-width: fit-content;
@@ -183,8 +182,8 @@ header input{
             display: flex;  
             width:20vw;
             position: relative;
-            top:3vw;
-            left: 2.5vw;
+            top:2vw;
+            
         
         }
                  
